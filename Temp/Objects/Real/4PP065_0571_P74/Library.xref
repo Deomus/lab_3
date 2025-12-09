@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="Libraries.Library" AppMod="">
+  <Vars />
+  <Consts />
+  <Funcs>
+    <Func Name="FB_Integrator" Lib="">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/Libraries/Library/FB_Motor.c">
+        <Pos L="15" C="2" PS=" Ln:15, Col:2" />
+        <Pos L="18" C="2" PS=" Ln:18, Col:2" />
+      </File>
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/Libraries/Library/FB_Regulator.c">
+        <Pos L="34" C="2" PS=" Ln:34, Col:2" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>

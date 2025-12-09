@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="SDCAxisCtrl_X" AppMod="">
+  <Vars>
+    <Var Name="AxisX_HW.EncIf1_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="16" C="10" A="W" PS=" Ln:16, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DiDoIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="17" C="10" A="W" PS=" Ln:17, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DrvIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="18" C="10" A="W" PS=" Ln:18, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.EncIf1_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="21" C="17" A="RW" PS=" Ln:21, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DrvIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="22" C="17" A="RW" PS=" Ln:22, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DiDoIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="23" C="17" A="RW" PS=" Ln:23, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iEncOK" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="26" C="13" A="W" PS=" Ln:26, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iDrvOK" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="27" C="13" A="W" PS=" Ln:27, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iStatusEnable" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="28" C="13" A="W" PS=" Ln:28, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="29" C="14" A="W" PS=" Ln:29, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="122" C="18" A="RW" PS=" Ln:122, Col:18" />
+        <Pos L="136" C="17" A="RW" PS=" Ln:136, Col:17" />
+        <Pos L="164" C="16" A="RW" PS=" Ln:164, Col:16" />
+        <Pos L="172" C="17" A="RW" PS=" Ln:172, Col:17" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.dt" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="31" C="14" A="W" PS=" Ln:31, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.k_i" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="32" C="14" A="W" PS=" Ln:32, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.k_p" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="33" C="14" A="W" PS=" Ln:33, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.max_abs_value" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="34" C="14" A="W" PS=" Ln:34, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.pwm_period" Scope="Local" Type="UINT">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="36" C="2" A="W" PS=" Ln:36, Col:2" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iActTime" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="96" C="13" A="W" PS=" Ln:96, Col:13" />
+      </File>
+    </Var>
+    <Var Name="iPosHwEnd" Scope="Global" Type="BOOL">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="99" C="2" A="W" PS=" Ln:99, Col:2" />
+        <Pos L="159" C="2" A="W" PS=" Ln:159, Col:2" />
+        <Pos L="168" C="6" A="R" PS=" Ln:168, Col:6" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="129" C="12" A="RW" PS=" Ln:129, Col:12" />
+        <Pos L="138" C="12" A="RW" PS=" Ln:138, Col:12" />
+        <Pos L="161" C="11" A="RW" PS=" Ln:161, Col:11" />
+        <Pos L="167" C="11" A="RW" PS=" Ln:167, Col:11" />
+        <Pos L="174" C="12" A="RW" PS=" Ln:174, Col:12" />
+        <Pos L="176" C="12" A="RW" PS=" Ln:176, Col:12" />
+        <Pos L="180" C="13" A="RW" PS=" Ln:180, Col:13" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.endswitch_a_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="99" C="20" A="R" PS=" Ln:99, Col:20" />
+        <Pos L="159" C="20" A="R" PS=" Ln:159, Col:20" />
+      </File>
+    </Var>
+    <Var Name="iNegHwEnd" Scope="Global" Type="BOOL">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="100" C="2" A="W" PS=" Ln:100, Col:2" />
+        <Pos L="160" C="2" A="W" PS=" Ln:160, Col:2" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.endswitch_b_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="100" C="20" A="R" PS=" Ln:100, Col:20" />
+        <Pos L="160" C="20" A="R" PS=" Ln:160, Col:20" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.coil_powered" Scope="Local" Type="BOOL">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="102" C="5" A="R" PS=" Ln:102, Col:5" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.Already_Homed" Scope="Local" Type="BOOL">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="104" C="7" A="R" PS=" Ln:104, Col:7" />
+        <Pos L="179" C="4" A="W" PS=" Ln:179, Col:4" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.reset_counter" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="111" C="10" A="W" PS=" Ln:111, Col:10" />
+        <Pos L="175" C="9" A="W" PS=" Ln:175, Col:9" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.posEnable.enable" Scope="Local" Type="Pos">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="114" C="17" A="R" PS=" Ln:114, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.oSetPos" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="115" C="16" A="W" PS=" Ln:115, Col:16" />
+        <Pos L="117" C="16" A="W" PS=" Ln:117, Col:16" />
+        <Pos L="121" C="33" A="R" PS=" Ln:121, Col:33" />
+        <Pos L="163" C="31" A="R" PS=" Ln:163, Col:31" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.posEnableRight.enable" Scope="Local" Type="Pos">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="116" C="29" A="R" PS=" Ln:116, Col:29" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.e" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="121" C="16" A="W" PS=" Ln:121, Col:16" />
+        <Pos L="135" C="15" A="W" PS=" Ln:135, Col:15" />
+        <Pos L="163" C="14" A="W" PS=" Ln:163, Col:14" />
+        <Pos L="171" C="15" A="W" PS=" Ln:171, Col:15" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.speed" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="121" C="56" A="R" PS=" Ln:121, Col:56" />
+        <Pos L="163" C="54" A="R" PS=" Ln:163, Col:54" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.u" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="124" C="10" A="W" PS=" Ln:124, Col:10" />
+        <Pos L="137" C="9" A="W" PS=" Ln:137, Col:9" />
+        <Pos L="166" C="8" A="W" PS=" Ln:166, Col:8" />
+        <Pos L="173" C="9" A="W" PS=" Ln:173, Col:9" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.u" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="124" C="27" A="R" PS=" Ln:124, Col:27" />
+        <Pos L="166" C="25" A="R" PS=" Ln:166, Col:25" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.coil_pwm_value" Scope="Local" Type="INT">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="125" C="4" A="W" PS=" Ln:125, Col:4" />
+        <Pos L="134" C="3" A="W" PS=" Ln:134, Col:3" />
+        <Pos L="158" C="2" A="W" PS=" Ln:158, Col:2" />
+        <Pos L="170" C="3" A="W" PS=" Ln:170, Col:3" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iLifeCnt" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="144" C="13" A="W" PS=" Ln:144, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntDriveEnable" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="145" C="14" A="W" PS=" Ln:145, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="146" C="14" A="W" PS=" Ln:146, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="147" C="14" A="W" PS=" Ln:147, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="148" C="14" A="W" PS=" Ln:148, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="149" C="14" A="W" PS=" Ln:149, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iLifeCnt" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="150" C="13" A="W" PS=" Ln:150, Col:13" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.k" Scope="Local" Type="INT">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="177" C="6" A="R" PS=" Ln:177, Col:6" />
+        <Pos L="182" C="3" A="W" PS=" Ln:182, Col:3" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="ncSDC_ENC16" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="16" C="24" A="R" PS=" Ln:16, Col:24" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DRVSERVO16" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="18" C="23" A="R" PS=" Ln:18, Col:23" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DIDO" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="17" C="24" A="R" PS=" Ln:17, Col:24" />
+      </File>
+    </Const>
+  </Consts>
+  <Funcs>
+    <Func Name="AsIOTimeCyclicStart" Lib="">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="96" C="30" PS=" Ln:96, Col:30" />
+      </File>
+    </Func>
+    <Func Name="FB_Regulator" Lib="">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="122" C="4" PS=" Ln:122, Col:4" />
+        <Pos L="136" C="3" PS=" Ln:136, Col:3" />
+        <Pos L="164" C="2" PS=" Ln:164, Col:2" />
+        <Pos L="172" C="3" PS=" Ln:172, Col:3" />
+      </File>
+    </Func>
+    <Func Name="FB_Axis" Lib="">
+      <File Name="C:/Users/admin/Desktop/lb3/LR3/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="129" C="3" PS=" Ln:129, Col:3" />
+        <Pos L="138" C="3" PS=" Ln:138, Col:3" />
+        <Pos L="161" C="2" PS=" Ln:161, Col:2" />
+        <Pos L="167" C="2" PS=" Ln:167, Col:2" />
+        <Pos L="174" C="3" PS=" Ln:174, Col:3" />
+        <Pos L="176" C="3" PS=" Ln:176, Col:3" />
+        <Pos L="180" C="4" PS=" Ln:180, Col:4" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>
